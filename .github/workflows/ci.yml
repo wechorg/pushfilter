@@ -16,6 +16,7 @@ on:
     paths:
       - 'cloudformation/templates/sagemaker-notebook.yaml'
       - '**spock**'
+      - 'README.md'
 
 env:
   STACK_NAME: 'sagemaker-notebook-spock'
