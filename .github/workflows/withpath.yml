@@ -1,0 +1,13 @@
+name: withpath
+on:
+  push:
+    branches:
+      - main
+      - release/*
+    paths:
+      - 'README.md'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo "hello world"
