@@ -13,10 +13,10 @@ on:
       - main
       - release/*
       - feat/* # Enable feature branches deployment for build phase
-    paths:
-      - 'cloudformation/templates/sagemaker-notebook.yaml'
-      - '**spock**'
-      - 'README.md'
+#     paths:
+#       - 'cloudformation/templates/sagemaker-notebook.yaml'
+#       - '**spock**'
+#       - 'README.md'
 
 env:
   STACK_NAME: 'sagemaker-notebook-spock'
