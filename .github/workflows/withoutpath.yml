@@ -1,0 +1,11 @@
+name: withoutpath
+on:
+  push:
+    branches:
+      - main
+      - release/*
+jobs:
+  build2:
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo "hello world"
